@@ -1,2 +1,1 @@
-# ARmirror
- 
+# camera_kit_demo
