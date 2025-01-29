@@ -1,1 +1,4 @@
-# camera_kit_demo
+# Camera Kit Web React + Typescript
+
+`npm install`
+`npm run dev`
