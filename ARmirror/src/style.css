@@ -1,0 +1,35 @@
+/* Basic body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensures body takes up the entire height of the viewport */
+  overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+/* Ensure canvas fills the screen */
+#canvas {
+  position: absolute; /* Position it absolutely */
+  top: 0;
+  left: 0;
+  width: 100vw;  /* Use 100% of the viewport width */
+  height: 100vh; /* Use 100% of the viewport height */
+  background-color: black;  /* Optional: black background while video loads */
+  display: block;
+  object-fit: cover; /* Ensure the video fills the canvas */
+  z-index: -1; /* Put the canvas behind any other UI elements */
+}
+
+
+/* Optional styles for logo and card if you have them in the future */
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
